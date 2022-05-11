@@ -5,6 +5,19 @@
     box-sizing: border-box;
 }
 
+:root{
+    /*===Primary colors===*/
+    --color-red: hsl(0, 78%, 62%);
+    --color-Cyan: hsl(180, 62%, 55%);
+    --color-Orange: hsl(34, 97%, 64%);
+    --color-Blue: hsl(212, 86%, 64%);
+
+    /*===Neutral colors===*/
+    --color-Very-Dark-Blue: hsl(234, 12%, 34%);
+    --color-Grayish-Blue: hsl(229, 6%, 66%);
+    --color-Very-Light-Gray: hsl(0, 0%, 98%);
+}
+
 .title{
     width: 100%;
     max-width: 50vw;
