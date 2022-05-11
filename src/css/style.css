@@ -43,3 +43,19 @@ section img{
     max-width: 15%;
     margin-top: 15%;
 }
+
+#supervisor{
+    border-top: 7px solid var(--color-Cyan);
+}
+
+#teamBuilder{
+    border-top: 7px solid var(--color-red);
+}
+
+#karma{
+    border-top: 7px solid var(--color-Orange);
+}
+
+#calculator{
+    border-top: 7px solid var(--color-Blue);
+}
