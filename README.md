@@ -7,7 +7,7 @@
 - (PT-BR) Desafio de uma página com quatro seções de cartões usando HTML e CSS.
 
 ### Links
-- Solution URL: 
+- Solution URL: https://github.com/Cristiano-Monteiro/Frontend-Mentor-Four-card-feature-section-solution
 - Live Site URL: 
 
 ## Author / Autor
