@@ -18,11 +18,16 @@
     --color-Very-Light-Gray: hsl(0, 0%, 98%);
 }
 
+body{
+    background-color: var(--color-Very-Light-Gray);
+}
+
 .title{
     width: 100%;
     max-width: 50vw;
     text-align: center;
     margin: 0% auto;
+    margin-top: 5rem;
 }
 
 .title h1{
