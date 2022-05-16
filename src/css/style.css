@@ -16,14 +16,18 @@
     --color-Very-Dark-Blue: hsl(234, 12%, 34%);
     --color-Grayish-Blue: hsl(229, 6%, 66%);
     --color-Very-Light-Gray: hsl(0, 0%, 98%);
+
+    font-size: 62.5%;
 }
 
 body{
     background-color: var(--color-Very-Light-Gray);
+    font-size: 1rem;
 }
 
 p{
     color: var(--color-Grayish-Blue);
+    font-size: 1.5rem;
 }
 
 h1, h2{
@@ -36,29 +40,37 @@ span{
 
 .title{
     width: 100%;
-    max-width: 50vw;
     text-align: center;
     margin: 0% auto;
     margin-top: 5rem;
 }
 
 .title h1{
-    width: 45vw;
+    width: 50rem;
     margin: 0% auto;
+    font-size: 4rem;
+}
+
+.title p{
+    width: 50rem;
+    margin: 2rem auto 0%;
 }
 
 section{
-    border: 1px solid black;
-    max-width: 22rem;
+    border: 1px solid white;
+    background-color: white;
+    max-width: 30vw;
     height: max-content;
     padding: 2rem;
     border-radius: .5rem;
+    box-shadow: 2px 15px 15px 5px whitesmoke;
 }
 
 section img{
     width: 100%;
-    max-width: 15%;
+    max-width: 20%;
     margin-top: 15%;
+    margin-left: 80%;
 }
 
 #supervisor{
@@ -83,6 +95,10 @@ section img{
     align-items: center;
     justify-content: center;
     margin: 3rem 0rem;
+}
+
+#allCards h2{
+    font-size: 2rem;
 }
 
 .teamBuilderAndKarma{
