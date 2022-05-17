@@ -27,7 +27,7 @@ body{
 
 p{
     color: var(--color-Grayish-Blue);
-    font-size: 1.5rem;
+    font-size: 1.3vw;
 }
 
 h1, h2{
@@ -48,7 +48,7 @@ span{
 .title h1{
     width: 50rem;
     margin: 0% auto;
-    font-size: 4rem;
+    font-size: 3vw;
 }
 
 .title p{
@@ -98,7 +98,7 @@ section img{
 }
 
 #allCards h2{
-    font-size: 2rem;
+    font-size: 1.6vw;
 }
 
 .teamBuilderAndKarma{
