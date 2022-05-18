@@ -46,13 +46,13 @@ span{
 }
 
 .title h1{
-    width: 50rem;
+    width: 40vw;
     margin: 0% auto;
     font-size: 3vw;
 }
 
 .title p{
-    width: 50rem;
+    width: 45vw;
     margin: 2rem auto 0%;
 }
 
@@ -109,4 +109,24 @@ footer{
     display: flex;
     justify-content: center;
     margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 554px) {
+    .title h1{
+        width: 80vw;
+        font-size: 5.3vw;
+    }
+
+    .title p{
+        width: 70vw;
+        font-size: 3.3vw;
+    }
+
+    section{
+        max-width: 170vw;
+    }
+
+    #allCards{
+        flex-direction: column;
+    }
 }
