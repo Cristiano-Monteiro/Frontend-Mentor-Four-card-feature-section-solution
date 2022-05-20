@@ -63,7 +63,7 @@ section{
     height: max-content;
     padding: 2rem;
     border-radius: .5rem;
-    box-shadow: 2px 15px 15px 5px whitesmoke;
+    box-shadow: 2px 15px 15px 3px rgba(0, 0, 0, 0.212);
 }
 
 section img{
@@ -116,20 +116,26 @@ footer{
         margin-bottom: 7rem;
     }
 
-    .title h1{
+    .title h1, .title p{
         width: 90vw;
+    }
+
+    .title h1{
         font-size: 7vw;
     }
 
     .title p{
-        width: 90vw;
         font-size: 4.3vw;
     }
 
-    #allCards section{
+    #allCards section, .teamBuilderAndKarma{
         max-width: 100vw;
         width: 85vw;
         margin: 0%;
+    }
+
+    #allCards section{
+        margin-bottom: 3.5rem;
     }
 
     #allCards{
